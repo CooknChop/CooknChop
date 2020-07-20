@@ -1,0 +1,80 @@
+body *{
+    background-color: white;
+}
+
+.entete{
+    height: 150px;
+    width: 100%;
+    background-color: #FF8C00;
+    position: relative;
+}
+h3{
+    text-decoration: underline;
+    display: inline;
+}
+.h{
+    margin-left: 425px;
+}
+.nouv{
+    width: 300px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+#liste{
+    
+}
+.texte{
+    float: right;
+}
+.separation{
+    clear: initial;
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 50px;
+    height: 400px;
+    width: 2px;
+    background-color: black;
+}
+#deux{
+    margin-left: 600px;
+    position: absolute;
+    float: right;
+    padding-top: auto;
+}
+.pieds{
+    bottom: 0;
+    height: 100px;
+    position: relative;
+    background-color: #FF8C00;
+}
+h4{
+    text-decoration: underline;
+    margin-left: 600px;
+    padding-top: 30px;
+    font-size: 1.3em;
+}
+.entete,.pieds{
+    background-image: url(images/Cooking-icon.png);
+}
+#image-form .btn-file {
+    position: relative;
+    overflow: hidden;}
+#image-form .btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 90%;
+    min-height: 90%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: inline-block;
+}
+
+#image-form  #img-upload{
+    width: 100%;
+}
